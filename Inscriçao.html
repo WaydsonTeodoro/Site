@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html><head>
+
+
+       
+</head>
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/Site.css" />
+    <script src="./script.js"></script>
+    <body>  
+        <div class="container">
+            <div id="Inicio">
+                <p>UNIVERSSIDADE G</p>
+            </div>
+            <div id="Divisao">
+            </div>
+            <div id="Menu">
+                <br>
+            
+            <a href=index.html>
+               <button class="botao">
+                   VOLTAR PARA O MENU INICIAL
+                  
+               </button>
+            </a>
+            </div>
+            <div id="Divisao">
+            </div>
+            <div id="Conteudo">
+                <div>
+                    <h1 id="Titulo">
+                        INSCRIÇAO PARA O VESTIBULAR
+                    </h1>
+                </div>
+
+                <!--Dados do participante-->
+                    <fieldset class="grupo">
+                    <h2>Dados do participante</h2>
+                   
+                    <div id="checkbox">
+                     <!--Campos de nome utilizando o label e o input para que consigam escrever-->
+                    <div class="campo">
+                        <label for="nome" type="text"><strong> Nome Completo</strong></label>
+                        <input type="name" id="name" required>
+                    </div>
+                    <br>
+                    <div class="campo">
+                        <label  for="nome2" type="text"><strong>Nome da Mae (ou responsavel)</strong></label>
+                        <input type="name2"  id="name">
+                    </div>
+                    <br>
+                    <div class="campo">
+                        <label  for="nome3" type="text"><strong>Nome do Pai (ou responsavel)</strong></label>
+                        <input type="name3"  id="name">
+                    </div>
+                    </div>
+                     <br>
+                    <br>
+
+                     <!--Campo de data para que possa colocar a data de aniverssario do participante-->
+                    <div  class="campo">
+                        <label type="email"><strong>Data de aniverssario</strong></label>
+                        <input type="date"  id="data">
+                    </div>
+                    <br>
+                    <!--Campo de email-->
+                    <div  class="campo">
+                        <label type="email"><strong>Email</strong></label>
+                        <input type="email"  id="email">
+                    </div>
+                    <br>
+             
+                    <div  class="campo">
+                        <label><strong>Estado</strong></label>
+                        <select id="Senioridade">
+                            <option selected disabled value="">Selecione</option>
+                            <option>AC</option>
+                            <option>AL</option>
+                            <option>AP</option>
+                            <option>AM</option>
+                            <option>BA</option>
+                            <option>CE</option>
+                            <option>ES</option>
+                            <option>GO</option>
+                            <option>MA</option>
+                            <option>MT</option>
+                            <option>MS</option>
+                            <option>MG</option>
+                            <option>PA</option>
+                            <option>PB</option>
+                            <option>PR</option>
+                            <option>PE</option>
+                            <option>PI</option>
+                            <option>RJ</option>
+                            <option>RN</option>
+                            <option>RS</option>
+                            <option>RO</option>
+                            <option>RR</option>
+                            <option>SC</option>
+                            <option>SP</option>
+                            <option>SE</option>
+                            <option>TO</option>
+                            <option>DF</option>
+                        </select>
+                    </div>
+               
+
+                </fieldset>
+              
+              <div id="Divisao"> </div>
+              <fieldset class="grupo">
+                <div id="checkbox">
+                   <label><strong>Selecione as seu qual curso voce deseja fazer</strong></label><br><br>
+                   <input type="checkbox" id="engenharia" value="HTML">
+                   <label for="engenharia">Engenharia da computaçao</label>
+                   <input type="checkbox" id="engenharia2"  value="HTML">
+                   <label for="engenharia2">Engenharia da mecatronica</label>
+                   <br>
+                   <input type="checkbox" id="ciencias" value="HTML">
+                   <label for="ciencias">ciencias da computaçao</label>
+                   <input type="checkbox" id="ciencias"  value="HTML">
+                   <label for="ciencias">Administraçao</label>
+                   
+                </div>
+                
+            </fieldset>
+            <div id="Divisao">
+            </div>
+            <fieldset class="grupo">
+                <div  class="campo">
+                    <label><strong>Porque voce quer entrar para este curso</strong></label>
+                    <textarea row="10" style="width: 100%" style="height: 40%" id="curso"></textarea>
+                    <br>
+                </div>
+            </fieldset>
+
+
+            <div id="Divisao">
+            </div>
+
+            <h1 id="Titulo">Questionario socioeconomico</h1>
+
+            <div id="Divisao">
+            </div>
+
+              <fieldset >
+                <h2>Tipo de Escola</h2>
+                <div  class="campo">
+                  <label>Tipo</label>
+                    <label>
+                        <input type="radio"  name = "Opçao1">Particular
+                    </label>
+                    <label>
+                        <input  type="radio"  name = "Opçao1">Federal
+                    </label>
+                    <label>
+                        <input  type="radio" name = "Opçao1">Publica
+                    </label>
+                </div>
+            </fieldset >
+
+            <div id="Divisao"> </div>
+
+            <fieldset >
+                <h2>Quantas pessoas moram em sua casa?</h2>
+                <div  class="campo">
+                   
+                    <label>
+                        <input type="radio"  name = "Opçao">Duas pessoas
+                    </label>
+                    <label>
+                        <input  type="radio"  name = "Opçao">tres pessoas
+                    </label>
+                    <label>
+                        <input  type="radio"  name = "Opçao">quatro pessoas
+                    </label>
+                </div>
+            </fieldset >
+
+            <div id="Divisao"> </div>
+
+            <fieldset >
+                <h2>Quem mora com voce?</h2>
+                <div  class="campo">
+                   
+                    <label>
+                        <input type="radio"  name = "Opçao">Duas pessoas
+                    </label>
+                    <label>
+                        <input  type="radio"  name = "Opçao">Tres pessoas
+                    </label>
+                    <label>
+                        <input  type="radio"  name = "Opçao">Quatro pessoas
+                    </label><label>
+                        <input  type="radio"  name = "Opçao">Cinco pessoas
+                    </label>
+                    <label>
+                        <input  type="radio"  name = "Opçao">Seis pessoas
+                    </label>
+                    <label>
+                        <input  type="radio"  name = "Opçao">Mais de 6 pessoas
+                    </label>
+                    <label>
+                        <input  type="radio"  name = "Opçao">Moro sozinho 
+                    </label>
+                </div>
+            </fieldset >
+
+            <div id="Divisao">
+            </div>
+           
+            <fieldset >
+                <h2>Quem mora com voce?</h2>
+                <div  class="campo">
+                   
+                    <label>
+                        <input type="radio"  name = "Opçao">A pé/carona/bicicleta.
+                    </label>
+                    <label>
+                        <input type="radio"  name = "Opçao">A pé/carona/bicicleta.
+                    </label>
+                
+                </div>
+            </fieldset >
+
+            <div id="Divisao">
+            </div>
+            
+            </div>
+            
+           
+            </div>
+        </div>
+        <div id="Footer">
+           <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+        </div>
+
+
+          
+        
+    </body>
+
+
+
+</html>
