@@ -11,7 +11,7 @@
 .container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 1px 5% 2px 1fr 10%;
+    grid-template-rows: 5% 1px 3% 2px 1fr 10%;
     gap: 0px 0px;
     grid-auto-flow: row;
     width: 100%;
@@ -148,4 +148,16 @@ background :rgb(165, 40, 165);
 }
 #checkbox{
   display: inline-block;
+}
+
+#texto{
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+}
+#textoF{
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  color:white;
 }
