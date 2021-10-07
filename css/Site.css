@@ -1,3 +1,6 @@
+
+
+
 .container2 {
   display: grid;
   grid-template-columns: 100%;
@@ -18,11 +21,15 @@
     height: auto;
    
   }
+
+  
   #Divisao{
     width: 100%;
     height: 1px;
     background-color: #180944;
   }
+
+  
   #Inicio{
   
     background-color: #6e51c4;
@@ -40,7 +47,6 @@
     background-color: rgb(255, 255, 255);
   }
 
-  
   body{
       background-color: #59429d;
       font-family: sans-serif;
@@ -92,6 +98,8 @@ fieldset .group .campo{
 #name{
   width: 300px;
 }
+
+/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
 .campo Input[type="text"],.campo input[type="email"],.campo select,.campo textarea{
  padding: 0.2em;
  width: 300px;
@@ -101,10 +109,16 @@ fieldset .group .campo{
 }
 
 
-
+/* Elementos de classe "campo" de tag <select> e <option>*/
 .campo select option{
   padding-right:1em;
 }
+
+/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"
+(Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica 
+um estado especial do elemento selecionado,Por exemplo, :focus pode ser usado para alterar a cor de 
+um botão quando o usuário passar o cursor sobre ele.)*/
+
 .campo input:focus,.campo:focus,.campo textarea:focus{
   background-color: #e4daec;
 }
@@ -112,12 +126,12 @@ fieldset .group .campo{
   font-size:1.2em;
   background-color: #59429d;
   border:0;
-  margin: -20px 150px; 
+  margin: -30px 150px; 
   color:white;
   padding: 0.2em 0.6em;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
  
-  margin-right : -50%;
+  
   
 
 }
@@ -130,9 +144,10 @@ fieldset .group .campo{
   color:white;
   padding: 0.2em 0.6em;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
- 
+ margin-top: 10px;
+ margin-bottom: 10px;  
   margin-right : -50%;
-  
+
 
 }
 .botao:hover{
@@ -161,3 +176,4 @@ background :rgb(165, 40, 165);
   text-align: center;
   color:white;
 }
+
