@@ -7,9 +7,10 @@
 </head>
     
     
+    <!--Aqui e importado o css-->
     <link rel="stylesheet" type="text/css" href="css/Site.css" />
-    <script src="./script.js"></script>
-    <body>  
+
+    <body id="body1">  
         <div class="container">
             <div id="Inicio">
                 <p>UNIVERSSIDADE G</p>
@@ -35,15 +36,19 @@
                     </h1>
                 </div>
 
-               
+                     <!--<fieldset> O elemento HTML <fieldset> é usado para agrupar elementos, assim como labels ( <label> ), dentro de um formulário web-->
                     <fieldset class="grupo">
                     <h2>Dados do participante</h2>
                    
                     <div id="checkbox">
-                  
+                  <!--Aqui começa o formulario -->
                     <div class="campo">
+                        <!--Aqui ficam os campos label que sao como se fossem legendas de itens-->
+                        <!--Strong serve para deixar em negrito-->
+                        <!--id serve para definir um id para o imput-->
+                        <!--type serve pra definir o tipo do campo-->
                         <label for="nome" type="text"><strong> Nome Completo</strong></label>
-                        <input type="name" id="name" required>
+                        <input type="name" id="name">
                     </div>
                     <br>
                     <div class="campo">
@@ -71,6 +76,8 @@
                         <input type="email"  id="email">
                     </div>
                     <br>
+
+                    <!--Aqui se um tipo de checkbox que usa o nome para definir qual campo sera selecionado-->
                         <div  class="campo">
                             <label for="nome" type="text"><strong> Qual seu estado civil?</strong></label>
                           
@@ -92,10 +99,10 @@
                         </div>
                         <br>
 
-             
+             <!--Aqui e um caixa de seleçao onde voce pode selecionar com o select varias opçoes-->
                     <div  class="campo">
                         <label><strong>Estado</strong></label>
-                        <select id="Senioridade">
+                        <select>
                             <option selected disabled value="">Selecione</option>
                             <option>AC</option>
                             <option>AL</option>
@@ -130,6 +137,7 @@
 
                 </fieldset>
               
+                <!--E um checkbox de caixa que voce pode selecionar o tipo de caixa mais de uma vez-->
               <div id="Divisao"> </div>
               <fieldset class="grupo">
                 <div id="checkbox">
@@ -149,6 +157,7 @@
             </fieldset>
             <div id="Divisao">
             </div>
+            <!--Aqui fica uma caixa de texto que voce pode escrever definindo seu tamanho e quantas linhas vao ter-->
             <fieldset class="grupo">
                 <div  class="campo">
                     <label><strong>Porque voce quer entrar para este curso</strong></label>
@@ -184,23 +193,7 @@
 
             <div id="Divisao"> </div>
 
-            <fieldset >
-                <h2>Quantas pessoas moram em sua casa?</h2>
-                <div  class="campo">
-                   
-                    <label>
-                        <input type="radio"  name = "Opçao2">Duas pessoas
-                    </label>
-                    <label>
-                        <input  type="radio"  name = "Opçao2">tres pessoas
-                    </label>
-                    <label>
-                        <input  type="radio"  name = "Opçao2">quatro pessoas
-                    </label>
-                </div>
-            </fieldset >
-
-            <div id="Divisao"> </div>
+         
 
             <fieldset >
                 <h2>Qual sua renda mensal individual</h2>
@@ -280,7 +273,7 @@
             </div>
            
             <fieldset >
-                <h2>Quem mora com voce?</h2>
+                <h2>Voce possui algum veiculo?</h2>
                 <div  class="campo">
                    
                     <label>
@@ -303,7 +296,7 @@
             </div>
 
             <fieldset >
-                <h2>Quem mora com voce?</h2>
+                <h2>Voce trabalha?</h2>
                 <div  class="campo">
                    
                     <label>
@@ -323,7 +316,9 @@
                     </div>
                 </div>
             </fieldset >
-
+            <!--Aqui tem um form dentro de uma tabela que utiliza inputs para que as informaçoes sejam escritas
+            utilizando o table,tr e td;
+            --> 
             <fieldset >
                 <h2>Pessoas que moram com voce</h2>
                 <form action="action" method="POST">
